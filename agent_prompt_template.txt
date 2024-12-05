@@ -1,0 +1,1 @@
+suppose there is a json object {"location": "kitchen", "light": "on"}, the "location" field value could be "kitchen" or "bedroom", and the field "light" value could be "on" or "off". now the question is: {prompt}, please only return the final json object, no any other explaination.

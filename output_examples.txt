@@ -1,0 +1,20 @@
+root@agentstack:/home/joehuang_sweden# python iot_agent.py 打开卧室的灯
+
+
+user input:
+打开卧室的灯
+
+
+model prompt:
+suppose there is a json object {"location": "kitchen", "light": "on"}, the "location" field value could be "kitchen" or "bedroom", and the field "light" value could be "on" or "off". now the question is: 打开卧室的灯, please only return the final json object, no any other explaination.
+
+
+
+model response:
+{"location": "bedroom", "light": "on"}
+
+
+now agent will post the content to github...
+
+
+visit https://github.com/ChaoyiHuang/iot_messages...to see what happened
