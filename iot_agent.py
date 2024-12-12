@@ -41,9 +41,7 @@ print("\n\nmodel response:")
 print(model_response)
 
 
-print("\n\nnow agent will post the content to github...")
-
-print("\n\nvisit https://github.com/ChaoyiHuang/iot_messages...to see what happened")
+print("\n\nvisit github, the new model response should be thered")
 
 
 g = Github(token)
